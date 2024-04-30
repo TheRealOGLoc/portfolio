@@ -1,22 +1,19 @@
 import './App.scss';
 import Navbar from './component/TopNavbar/Navbar';
-import Test from './Test';
 
 function App() {
   return (
     <div className="App bg-slate-900 text-gray-200">
-      {/* <section>
+      <section id='Homepage'>
         <Navbar></Navbar>
       </section>
-      <section>Parallax</section>
+      <section id='Services'>Parallax</section>
       <section>Services</section>
-      <section>Parallax</section>
+      <section id='Portfolio'>Parallax</section>
       <section>Portfolio</section>
       <section>Portfolio</section>
       <section>Portfolio</section>
-      <section>Contact</section> */}
-      <Test></Test>
-      <Test></Test>
+      <section id='Contact'>Contact</section>
     </div>
   );
 }
