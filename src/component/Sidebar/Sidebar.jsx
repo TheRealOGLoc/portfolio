@@ -6,13 +6,6 @@ import SidebarLinks from './SidebarLinks/SidebarLinks'
 
 export default function Sidebar() {
     const [open, setOpen] = useState(false)
-    const items = [
-        "Homepage",
-        "Services",
-        "Portfolio",
-        "Contact",
-        "About"
-    ]
 
     const variants = {
         open: {
@@ -33,35 +26,9 @@ export default function Sidebar() {
         }
     }
 
-    const linkVariants = {
-        open: {
-            transition: {
-                staggerChildren: 0.1
-            }
-        },
-        closed: {
-            transition: {
-                staggerChildren: 0.05,
-                staggerDirection: -1
-            }
-        }
-    }
-
-    const itemVariants = {
-        open: {
-            y: 0,
-            opacity: 1
-        },
-        closed: {
-            y: 50,
-            opacity: 0
-        }
-    }
-
     return (
         <motion.div animate={open ? "open" : "closed"} className='flex flex-col items-center justify-center bg-white text-black'>
             <motion.div variants={variants} className='fixed top-0 left-0 bottom-0 w-[400px] bg-white'>
-                {/* <motion.div variants={linkVariants} className='absolute w-[100%] h-[100%] flex flex-col items-center justify-center gap-[20px] '>{items.map((item, index) => (<a variants={itemVariants} href={`#${item}`} key={index}>{item}</a>))}</motion.div> */}
                 <SidebarLinks/>
             </motion.div>
             
