@@ -1,0 +1,15 @@
+.about-me {
+    height: calc(100vh - 100px) ;
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+}
+
+.about-me-btns button {
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
