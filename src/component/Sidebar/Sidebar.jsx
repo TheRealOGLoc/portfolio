@@ -28,11 +28,11 @@ export default function Sidebar() {
 
     return (
         <motion.div animate={open ? "open" : "closed"} className='flex flex-col items-center justify-center bg-white text-black'>
-            <motion.div variants={variants} className='fixed top-0 left-0 bottom-0 w-[400px] bg-white'>
+            <motion.div variants={variants} className='fixed top-0 left-0 bottom-0 w-[400px] bg-white z-[5]'>
                 <SidebarLinks/>
             </motion.div>
             
-            <button onClick={() => setOpen(prev => !prev)} className='w-[50px] h-[50px] rounded-full fixed bg-sky-500/0 left-[40px] top-[25px]'>
+            <button onClick={() => setOpen(prev => !prev)} className='w-[50px] h-[50px] rounded-full fixed bg-sky-500/0 left-[40px] top-[25px] z-[6]'>
                 <svg width="23" height="23" viewBox='0 0 23 23'>
                     <motion.path
                         strokeWidth="3"
