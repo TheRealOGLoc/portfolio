@@ -3,6 +3,7 @@ import Navbar from './component/TopNavbar/Navbar';
 import AboutMe from './component/AboutMe/AboutMe';
 import Parallax from './component/Parallax/Parallax';
 import Portfolio from './component/Portfolio/Portfolio';
+import Contact from './component/Contact/Contact';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       <section>Services</section>
       <section id='Portfolio'><Parallax type="portfolio" /></section>
       <Portfolio></Portfolio>
-      <section id='Contact'>Contact</section>
+      <section id='Contact'>
+        <Contact/>
+      </section>
     </div>
   );
 }
