@@ -1,13 +1,15 @@
-import './App.scss';
+import './App.css';
 import Navbar from './component/TopNavbar/Navbar';
 import AboutMe from './component/AboutMe/AboutMe';
 import Parallax from './component/Parallax/Parallax';
 import Portfolio from './component/Portfolio/Portfolio';
 import Contact from './component/Contact/Contact';
+import Cursor from './component/Cursor/Cursor';
 
 function App() {
   return (
     <div className="App text-gray-200">
+      <Cursor/>
       <section id='Homepage'>
         <Navbar></Navbar>
         <AboutMe/>
@@ -19,6 +21,7 @@ function App() {
       <section id='Contact'>
         <Contact/>
       </section>
+      
     </div>
   );
 }
