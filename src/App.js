@@ -14,8 +14,8 @@ function App() {
         <Navbar></Navbar>
         <AboutMe/>
       </section>
-      <section id='Services'><Parallax type="services" /></section>
-      <section>Services</section>
+      {/* <section id='Services'><Parallax type="services" /></section>
+      <section>Services</section> */}
       <section id='Portfolio'><Parallax type="portfolio" /></section>
       <Portfolio></Portfolio>
       <section id='Contact'>

@@ -8,7 +8,7 @@ export default function Navbar() {
     <div className='navbar h-[100px]'>
       <Sidebar/>
       <div className="navbar-wrapper max-w-[1366px] m-auto flex items-center justify-between h-[100%]">
-        <motion.span className="navbar-span font-bold" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }} >Marcos dev</motion.span>
+        <motion.span className="navbar-span font-bold pl-[150px]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }} >Yuchen DEV</motion.span>
         <div className='social flex gap-[10px]'>
           <a href="#"><img src="/images/facebook.png" alt="" /></a>
           <a href="#"><img src="/images/github.png" alt="" /></a>
