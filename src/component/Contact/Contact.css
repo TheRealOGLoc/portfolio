@@ -2,10 +2,44 @@
     font-weight: 300;
 }
 
-.contact-form-container input,textarea {
+.contact-form-container input,
+textarea {
     padding: 20px;
     background-color: transparent;
     border: 2px solid rgb(255, 255, 255) !important;
     color: white;
     border: 5px
+}
+
+@media screen and (max-width: 738px) {
+    .contact {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        gap: unset;
+    }
+
+    .contact-text-container {
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    .contact-text-container h1 {
+        font-size: 24px;
+    }
+
+    .contact-form-container {
+        padding: 50px;
+        width: 100%;
+    }
+
+    .contact-form-container textarea {
+        padding: 10px;
+    }
+
+    .contact-form-container button {
+        padding: 10px;
+    }
 }

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Navbar from './component/TopNavbar/Navbar';
 import AboutMe from './component/AboutMe/AboutMe';
 import Parallax from './component/Parallax/Parallax';
@@ -19,9 +19,8 @@ function App() {
       <section id='Portfolio'><Parallax type="portfolio" /></section>
       <Portfolio></Portfolio>
       <section id='Contact'>
-        <Contact/>
+      <Contact/>
       </section>
-      
     </div>
   );
 }

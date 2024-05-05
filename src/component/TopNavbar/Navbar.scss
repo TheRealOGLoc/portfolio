@@ -1,0 +1,11 @@
+
+@media screen and (max-width: 738px) {
+    .navbar-span {
+        display: none;
+    }
+
+    .navbar-wrapper {
+        justify-content: flex-end;
+        padding: 20px;
+    }
+}

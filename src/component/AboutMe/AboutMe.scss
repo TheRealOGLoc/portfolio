@@ -13,3 +13,29 @@
     cursor: pointer;
     font-size: 15px;
 }
+
+@media screen and (max-width: 738px) {
+    .about-me-text-container {
+        margin-top: 20px;
+        height: 50%;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-me-text-container h2 {
+        font-size: 30px;
+    }
+
+    .about-me-text-container h1 {
+        font-size: 25px;
+    }
+
+    .about-me-image-container {
+        height: 50%;
+        width: 100%;
+        top: unset;
+        bottom: 0;
+    }
+}

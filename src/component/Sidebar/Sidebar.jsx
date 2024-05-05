@@ -28,7 +28,7 @@ export default function Sidebar() {
 
     return (
         <motion.div animate={open ? "open" : "closed"} className='flex flex-col items-center justify-center bg-white text-black'>
-            <motion.div variants={variants} className='fixed top-0 left-0 bottom-0 w-[400px] bg-white z-[5]'>
+            <motion.div variants={variants} className='sidebar-gb fixed top-0 left-0 bottom-0 w-[400px] bg-white z-[5]'>
                 <SidebarLinks/>
             </motion.div>
             
