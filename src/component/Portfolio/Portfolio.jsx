@@ -3,12 +3,7 @@ import "./Portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 const items = [
-//   {
-//     id: 1,
-//     title: "MERN E-Commerce",
-//     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-//     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-//   },
+
   {
     id: 2,
     title: "Hike-U - Comprehensive Hiker Planner",
@@ -18,7 +13,7 @@ const items = [
   {
     id: 3,
     title: "INSIGHTIFY - Social Media Platform",
-    img: "./images/insightfity.png",
+    img: "./images/insightify.png",
     desc: "Developed in-house web app using Node, Express, HTML/CSS, mongoDB. Using the MVC pattern has increased the convenience of later maintenance. The implementation includes features for users to upload, manage, comment on, and like posts.",
   },
   {
@@ -72,7 +67,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" ref={ref}>
       <div className="progress">
-        <h1>Featured Works</h1>
+        <h1>My Projects</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (
