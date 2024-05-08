@@ -48,7 +48,7 @@ export default function Contact() {
             <motion.div variants={variants} className="contact-text-container flex-1 flex flex-col gap-[40px]">
                 <motion.h1 variants={variants} className='text-[60px] leading-[66px]'>Let's work together</motion.h1>
                 <motion.div variants={variants} className="contact-text-items">
-                    <h2>Mail</h2>
+                    <h2>Email</h2>
                     <span>lyc990312@hotmail.com</span>
                 </motion.div>
                 <motion.div variants={variants} className="contact-text-items">
