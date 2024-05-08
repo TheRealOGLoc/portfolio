@@ -5,6 +5,7 @@ import Parallax from './component/Parallax/Parallax';
 import Portfolio from './component/Portfolio/Portfolio';
 import Contact from './component/Contact/Contact';
 import Cursor from './component/Cursor/Cursor';
+import Skills from './component/Skills/Skills';
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
         <Navbar></Navbar>
         <AboutMe/>
       </section>
-      {/* <section id='Services'><Parallax type="services" /></section>
-      <section>Services</section> */}
+      <section id='Skills'><Parallax type="services" /></section>
+      <Skills/>
       <section id='Portfolio'><Parallax type="portfolio" /></section>
       <Portfolio></Portfolio>
       <section id='Contact'>

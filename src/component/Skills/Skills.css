@@ -1,0 +1,52 @@
+.skills-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.skills-title div {
+    font-size: 50px;
+}
+
+.skills-title p {
+    font-size: 25px;
+}
+
+.skills-boxs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.skill-box {
+    max-width: 500px;
+    background-color: #363e49;
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 25px;
+    transition: 0.2s;
+}
+
+.skill-box:hover {
+    scale: 1.03;
+}
+
+.skill-box-name {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.skill-box-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-title {
+    text-align: center;
+}

@@ -30,10 +30,9 @@ export default function SidebarLinks() {
 
     const items = [
         "Homepage",
-        "Services",
+        "Skills",
         "Portfolio",
         "Contact",
-        "About"
     ]
 
 
