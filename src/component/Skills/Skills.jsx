@@ -117,10 +117,10 @@ export default function Skills() {
 
     const variants = {
         initial: {
-            y: 30
+            x: -50
         },
         animate: {
-            y: 0,
+            x: 0,
             transition: {
                 duration: 0.5
             }
@@ -134,19 +134,19 @@ export default function Skills() {
                 <p>Here are some of my skills.</p>
             </div>
             <motion.div variants={variants} className='skills-boxs' initial="initial" whileInView="animate" >
-                <motion.div variants={variants} className='skill-box'>
+                <motion.div variants={variants} className='skill-box '>
                     <div className='skill-box-name'>Frontend</div>
                     <div className='skill-box-skills'>{frontEnd.map((skill, index) => <SkillLabel key={index} img={skill.img} name={skill.name} />)}</div>
                 </motion.div>
-                <motion.div variants={variants}  className='skill-box'>
+                <motion.div variants={variants}  className='skill-box '>
                     <div className='skill-box-name'>Backend</div>
                     <div className='skill-box-skills'>{backEnd.map((skill, index) => <SkillLabel key={index} img={skill.img} name={skill.name} />)}</div>
                 </motion.div>
-                <motion.div variants={variants}  className='skill-box'>
+                <motion.div variants={variants}  className='skill-box '>
                     <div className='skill-box-name'>Programming languages</div>
                     <div className='skill-box-skills'>{languages.map((skill, index) => <SkillLabel key={index} img={skill.img} name={skill.name} />)}</div>
                 </motion.div>
-                <motion.div variants={variants}  className='skill-box'>
+                <motion.div variants={variants}  className='skill-box '>
                     <div className='skill-box-name'>Other</div>
                     <div className='skill-box-skills'>{other.map((skill, index) => <SkillLabel key={index} img={skill.img} name={skill.name} />)}</div>
                 </motion.div>
